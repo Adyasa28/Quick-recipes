@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suggest a Recipe - QuickBites</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>👩‍🍳 Suggest a Recipe</h1>
+    <p>Share your quick & tasty ideas with our community!</p>
+  </header>
+
+  <nav>
+    <a href="index.html">🏠 Home</a>
+    <a href="recipes.html">🍴 Recipes</a>
+    <a href="about.html">ℹ️ About</a>
+    <a href="suggest.html">📝 Suggest</a>
+  </nav>
+
+  <main class="container">
+    <h2>📝 Submit Your Recipe</h2>
+    <form action="#" method="post" class="recipe-form">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="title">Recipe Title:</label>
+      <input type="text" id="title" name="title" placeholder="e.g., Masala Maggie Hack" required>
+
+      <label for="ingredients">Ingredients:</label>
+      <textarea id="ingredients" name="ingredients" rows="4" placeholder="List ingredients..." required></textarea>
+
+      <label for="steps">Steps:</label>
+      <textarea id="steps" name="steps" rows="6" placeholder="Step 1, Step 2..." required></textarea>
+
+      <label for="time">Cooking Time:</label>
+      <input type="text" id="time" name="time" placeholder="e.g., 15 mins">
+
+      <label for="budget">Approx Cost:</label>
+      <input type="text" id="budget" name="budget" placeholder="e.g., ₹50">
+
+      <button type="submit">📩 Submit Recipe</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 QuickBites | Thank you for sharing! 💖</p>
+  </footer>
+</body>
+</html>
